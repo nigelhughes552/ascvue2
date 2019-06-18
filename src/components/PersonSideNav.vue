@@ -43,58 +43,58 @@ export default {
     return {
       items: [
         {
-          action: "fas fa-user",
-          title: "Detail",
+          action: 'fas fa-user',
+          title: 'Detail',
           items: [
-            { title: "Name", route: "/name" },
-            { title: "Summary" },
-            { title: "Contact Information" },
-            { title: "Subjects" },
-            { title: "Images" },
-            { title: "Post-nominals" },
-            { title: "Files" },
-            { title: "Rights" },
-            { title: "Historic Data" },
-            { title: "Other" },
-            { title: "Assets" }
-          ]
+            { title: 'Name', route: '/name' },
+            { title: 'Summary' },
+            { title: 'Contact Information' },
+            { title: 'Subjects' },
+            { title: 'Images' },
+            { title: 'Post-nominals' },
+            { title: 'Files' },
+            { title: 'Rights' },
+            { title: 'Historic Data' },
+            { title: 'Other' },
+            { title: 'Assets' },
+          ],
         },
         {
-          action: "group_work",
-          title: "Committees",
-          items: [{ title: "Add New Committee" }]
+          action: 'group_work',
+          title: 'Committees',
+          items: [{ title: 'Add New Committee' }],
         },
         {
-          action: "fas fa-crown",
-          title: "Assets",
-          items: [{ title: "Add new" }, { title: "Save PDF" }]
+          action: 'fas fa-crown',
+          title: 'Assets',
+          items: [{ title: 'Add new' }, { title: 'Save PDF' }],
         },
         {
-          action: "far fa-building",
-          title: "Rooms",
+          action: 'far fa-building',
+          title: 'Rooms',
           items: [
-            { title: "List Item" },
-            { title: "List Item2" },
-            { title: "List Item3" }
-          ]
+            { title: 'List Item' },
+            { title: 'List Item2' },
+            { title: 'List Item3' },
+          ],
         },
         {
-          action: "healing",
-          title: "Health",
-          items: [{ title: "List Item4" }]
+          action: 'healing',
+          title: 'Health',
+          items: [{ title: 'List Item4' }],
         },
         {
-          action: "content_cut",
-          title: "Office",
-          items: [{ title: "List Item5" }]
+          action: 'content_cut',
+          title: 'Office',
+          items: [{ title: 'List Item5' }],
         },
         {
-          action: "local_offer",
-          title: "Promotions",
-          items: [{ title: "List Item6" }]
-        }
-      ]
+          action: 'local_offer',
+          title: 'Promotions',
+          items: [{ title: 'List Item6' }],
+        },
+      ],
     };
-  }
+  },
 };
 </script>

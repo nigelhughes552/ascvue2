@@ -17,12 +17,12 @@
 export default {
   data() {
     return {
-      items: [{ message: "Senior Research Fellow 01/01/2006 -" }]
+      items: [{ message: 'Senior Research Fellow 01/01/2006 -' }],
     };
   },
   props: {
-    title: String
-  }
+    title: String,
+  },
 };
 </script>
 

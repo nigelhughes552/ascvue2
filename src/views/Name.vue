@@ -18,22 +18,22 @@
     </v-flex>
   </v-layout>
 </template>
-      
 
 
 <script>
-import NameCard from "@/components/NameCard";
+import NameCard from '@/components/NameCard';
+
 export default {
   components: {
-    NameCard
+    NameCard,
   },
   data() {
     return {
-      title: "Professor",
-      forenames: "Nigel",
-      surname: "Hughes"
+      title: 'Professor',
+      forenames: 'Nigel',
+      surname: 'Hughes',
     };
-  }
+  },
 };
 </script>
 

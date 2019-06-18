@@ -17,5 +17,3 @@
     </v-toolbar-items>
   </v-toolbar>
 </template>
-  
-  

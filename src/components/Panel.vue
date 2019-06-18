@@ -17,13 +17,13 @@
 export default {
   data() {
     return {
-      items: [{ message: "Foo" }, { message: "Bar" }]
+      items: [{ message: 'Foo' }, { message: 'Bar' }],
     };
   },
   props: {
     title: String,
-    dataText: Array
-  }
+    dataText: Array,
+  },
 };
 </script>
 

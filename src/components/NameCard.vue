@@ -26,10 +26,10 @@ export default {
   data() {
     return {
       card_text:
-        "Fraser Campbell re-entered Fellowship in summer 2013. Alongside his practice as a barrister in London, Fraser has recently presented papers to professional conferences on legal topics such as the recent reforms to the law on whistle-blowing.",
-      postnoms: "BEcon (Hons), BM, MA, AcSS"
+        'Fraser Campbell re-entered Fellowship in summer 2013. Alongside his practice as a barrister in London, Fraser has recently presented papers to professional conferences on legal topics such as the recent reforms to the law on whistle-blowing.',
+      postnoms: 'BEcon (Hons), BM, MA, AcSS',
     };
-  }
+  },
 };
 </script>
 

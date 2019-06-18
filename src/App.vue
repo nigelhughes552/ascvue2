@@ -70,74 +70,74 @@
 </template>
 
 <script>
-import ToolBar from "./components/ToolBar";
-import PersonSideNav from "./components/PersonSideNav";
-import NameCard from "@/components/NameCard";
+import ToolBar from './components/ToolBar';
+import PersonSideNav from './components/PersonSideNav';
+import NameCard from '@/components/NameCard';
 
 export default {
-  name: "App",
+  name: 'App',
   components: {
     ToolBar,
     PersonSideNav,
-    NameCard
+    NameCard,
   },
   data() {
     return {
       drawer: false,
       items: [
         {
-          action: "fas fa-user",
-          title: "Detail",
+          action: 'fas fa-user',
+          title: 'Detail',
           items: [
-            { title: "Name", route: "/name" },
-            { title: "Summary", route: "/summary" },
-            { title: "Contact Information", route: "/contact" },
-            { title: "Subjects", route: "/subjects" },
-            { title: "Images", route: "/images" },
-            { title: "Post-nominals", route: "/postnominals" },
-            { title: "Files", route: "/files" },
-            { title: "Rights", route: "/rights" },
-            { title: "Historic Data", route: "/historic" },
-            { title: "Other", route: "/other" },
-            { title: "Assets", route: "/assets" }
-          ]
+            { title: 'Name', route: '/name' },
+            { title: 'Summary', route: '/summary' },
+            { title: 'Contact Information', route: '/contact' },
+            { title: 'Subjects', route: '/subjects' },
+            { title: 'Images', route: '/images' },
+            { title: 'Post-nominals', route: '/postnominals' },
+            { title: 'Files', route: '/files' },
+            { title: 'Rights', route: '/rights' },
+            { title: 'Historic Data', route: '/historic' },
+            { title: 'Other', route: '/other' },
+            { title: 'Assets', route: '/assets' },
+          ],
         },
         {
-          action: "group_work",
-          title: "Committees",
-          items: [{ title: "Add New Committee" }]
+          action: 'group_work',
+          title: 'Committees',
+          items: [{ title: 'Add New Committee' }],
         },
         {
-          action: "fas fa-crown",
-          title: "Assets",
-          items: [{ title: "Add new" }, { title: "Save PDF" }]
+          action: 'fas fa-crown',
+          title: 'Assets',
+          items: [{ title: 'Add new' }, { title: 'Save PDF' }],
         },
         {
-          action: "far fa-building",
-          title: "Rooms",
+          action: 'far fa-building',
+          title: 'Rooms',
           items: [
-            { title: "List Item" },
-            { title: "List Item2" },
-            { title: "List Item3" }
-          ]
+            { title: 'List Item' },
+            { title: 'List Item2' },
+            { title: 'List Item3' },
+          ],
         },
         {
-          action: "healing",
-          title: "Health",
-          items: [{ title: "List Item4" }]
+          action: 'healing',
+          title: 'Health',
+          items: [{ title: 'List Item4' }],
         },
         {
-          action: "content_cut",
-          title: "Office",
-          items: [{ title: "List Item5" }]
+          action: 'content_cut',
+          title: 'Office',
+          items: [{ title: 'List Item5' }],
         },
         {
-          action: "local_offer",
-          title: "Promotions",
-          items: [{ title: "List Item6" }]
-        }
-      ]
+          action: 'local_offer',
+          title: 'Promotions',
+          items: [{ title: 'List Item6' }],
+        },
+      ],
     };
-  }
+  },
 };
 </script>

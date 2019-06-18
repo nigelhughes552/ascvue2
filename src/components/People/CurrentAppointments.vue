@@ -18,14 +18,14 @@ export default {
   data() {
     return {
       items: [
-        { message: "Academic Administrator and Domestic Bursar -" },
-        { message: "Chichele Professor of Medieval History  -" }
-      ]
+        { message: 'Academic Administrator and Domestic Bursar -' },
+        { message: 'Chichele Professor of Medieval History  -' },
+      ],
     };
   },
   props: {
-    title: String
-  }
+    title: String,
+  },
 };
 </script>
 
